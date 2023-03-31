@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding: 10px;
+}
