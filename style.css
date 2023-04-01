@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Roboto:ital,wght@1,300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +11,55 @@ nav{
     background-color: black;
     color: white;
     height: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 li{
     display: flex;
     justify-content: center;
     font-size: 25px;
     padding: 10px;
+   
+}
+
+nav:hover{
+    background-color: #35c0f3;
+    color: black;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(235, 121, 235);
+    margin-top: 50px;
+
+
+}
+
+.containerLeft{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.containerRight{
+
+}
+.containerRight h1{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.box{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: #d3e8f9;
 }
